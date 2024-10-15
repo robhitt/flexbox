@@ -1,0 +1,23 @@
+/* Your code goes here */
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
+  border: 1px solid #fff;
+  height: 300px;
+  width: 500px;
+  /* float: right;
+  width: 100%; */
+}
+
+.container div {
+  float: right;
+}
+
+/* .container div:nth-child(2) {
+  font-size: 40px;
+} */
